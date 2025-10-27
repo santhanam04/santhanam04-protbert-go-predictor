@@ -1,0 +1,26 @@
+# Core libraries
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+tqdm==4.66.5
+
+# Deep learning
+torch==2.4.1
+transformers==4.45.2
+
+# Bioinformatics
+biopython==1.83
+
+# Optional utilities
+requests==2.32.3
+joblib==1.4.2
+
+# For exporting notebooks or logging
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# If you plan to use GPU (CUDA 12.x version)
+# torch==2.4.1+cu121
+# torchvision==0.19.1+cu121
+# torchaudio==2.4.1+cu121
+# (uncomment the above lines if you install from PyTorch CUDA wheels)
